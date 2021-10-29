@@ -64,7 +64,7 @@ Tdef(\toca,{
     30.do{
         var cont = -1;
         countFiles = countFiles + 1;
-        x = CSVFileReader.readInterpret("/home/ejbejaranos/Desktop/AI_Music_Hack/camaleon/dataTrain/episode_"++countFiles.asString, true, true);
+        x = CSVFileReader.readInterpret("/home/ejbejaranos/Desktop/AI_Music_Hackaton/Team_camaleon/dataTrain/episode_"++countFiles.asString, true, true);
         x[0] = x[0][1..];
         //x[1] = x[1][1..];
         5.do{
@@ -81,6 +81,7 @@ Tdef(\toca,{
 }).play;
 )
 
+/home/ejbejaranos/Desktop/AI_Music_Hackaton/Team_camaleon/dataTrain
 
 
 

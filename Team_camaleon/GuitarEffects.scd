@@ -1,3 +1,4 @@
+s.boot;
 (
 SynthDef(\brumm, { |dur = 1.6, pan = 6, freq = 60, index = 10|
 	var sig = Pan2.ar(
@@ -19,7 +20,7 @@ Pbind(*[
 
 (
 Pbind(*[
-	dur: Pseq([1.8, 0.2, 0.5, Pseries(0.1, -0.001, 100)], inf),
+	dur: Pseq([1.4, 0.2, 0.5, Pseries(0.1, -0.001, 100)], inf),
 	pan: Pxrand(#[-0.5, 0.5, 0.1, -0.1, 0.8, -1], inf),
 	freq: Pseq([Pseries(140, 0.5, 200)], inf),
 	instrument: \brumm
